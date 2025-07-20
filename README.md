@@ -20,7 +20,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Guzman-05)
+- Solution URL: [GitHub](https://guzman-05.github.io/Order-Summary-Card/)
 
 
 ## Built with

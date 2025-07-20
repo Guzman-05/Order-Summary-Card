@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/tu-usuario/order-summary-card)
+- Solution URL: [Abril](https://guzman-05.github.io/Order-Summary-Card/)
 
 
 ## My process
