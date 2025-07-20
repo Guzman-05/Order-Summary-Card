@@ -5,27 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Order summary card</title>
+  <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <div>
-    <img src="./images/illustration-hero.svg" alt="Illustration of a person listening to music">
-    <h1>Order Summary</h1>
-    <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+<body class="relative flex items-center justify-center min-h-screen bg-blue-100">
+  <div class="absolute inset-0 w-full h-full -z-10 bg-no-repeat bg-bottom bg-cover" style="background-image: url('./images/pattern-background-desktop.svg');"></div>
+  <div class="bg-white rounded-xl shadow-lg p-7 sm:p-4 max-w-xs sm:max-w-[375px] w-full mx-4">
+    <img src="./images/illustration-hero.svg" alt="Illustration of a person listening to music" class="rounded-xl mb-6">
+    <h1 class="text-blue-700 text-2xl font-bold mb-4">Order Summary</h1>
+    <p class="text-gray-500 mb-6">You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
-    <div>
-      <img src="./images/icon-music.svg" alt="Music icon">
+    <div class="flex items-center bg-gray-100 rounded-lg p-4 mb-6">
+      <img src="./images/icon-music.svg" alt="Music icon" class="mr-4">
       <div>
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>  
-        <a href="#">Change</a>
+        <h2 class="text-gray-900 font-semibold">Annual Plan</h2>
+        <p class="text-gray-500">$59.99/year</p>  
+        <a href="#" class="text-blue-700 underline">Change</a>
       </div>
     </div>
-    <button>Proceed to Payment</button>
-    <button>Cancel Order</button>
+    <button class="w-full bg-blue-700 text-white py-3 rounded-lg font-bold mb-4 hover:bg-blue-800 transition">Proceed to Payment</button>
+    <button class="w-full text-gray-500 font-bold">Cancel Order</button>
   </div>
-  <div>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  <footer class="fixed bottom-4 left-0 w-full flex justify-center text-xs text-gray-400">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="underline mx-1">Frontend Mentor</a>. 
+    Coded by <a href="#" class="underline mx-1">Abril Guzman Barrera</a>.
+  </footer>
 </body>
 </html>
